@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenManual }) => {
           </span>
         </h1>
         <p className="text-xs text-slate-400 mt-1">
-          텍스트 추가 입력을 했다면 'AI 프롬프트 제안'을 클릭한 후 사용하세요.
+          텍스트 추가 입력을 했다면 'AI 프롬프트 제안'을 클릭한 후 CASE 별 프롬프트가 변경된 후 결과물을 생성하세요.
         </p>
       </div>
 
