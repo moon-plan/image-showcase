@@ -178,24 +178,20 @@ export const stylesAndEffects: Category = {
     {
         id: 'f2-style-88',
         name: 'CASE 125: 어린이 색칠공부 일러스트',
-        description: '특정 장면을 주제로 한 어린이용 색칠공부 흑백 라인 드로잉을 생성하며, 오른쪽 하단에 작은 컬러 예시 이미지를 포함합니다.',
-        prompt: `A black and white line drawing coloring illustration, suitable for direct printing on standard size (8.5x11 inch) paper, without paper borders. The overall illustration style is fresh and simple, using clear and smooth black outline lines, without shadows, grayscale, or color filling, with a pure white background for easy coloring.
-[At the same time, for the convenience of users who are not good at coloring, please generate a complete colored version in the lower right corner as a small image for reference]
-Suitable for: [6-9 year old children]
-Scene description:
-[A Haetae (a mythical Korean creature) is walking through a palace courtyard, with bright sunshine, blue sky and white clouds]`,
-        imageUploads: 0,
-        suggestionHint: '다른 주제나 다른 연령대에 맞는 색칠공부 도안을 요청해보세요.',
+        description: '업로드한 사진을 어린이용 색칠공부 도안으로 변환합니다. 오른쪽 하단에 작은 컬러 예시 이미지도 함께 생성됩니다.',
+        prompt: `Convert the uploaded image into a black and white line drawing coloring illustration, suitable for children. The style should be fresh and simple, with clear and smooth black outlines, without shadows or grayscale fills. The background should be white. Also, include a small, fully colored version of the original image in the bottom right corner as a reference for coloring.`,
+        imageUploads: 1,
+        suggestionHint: '프롬프트에 \'간단한 스타일로\' 또는 \'디테일하게\' 와 같이 라인 아트의 복잡성을 조절하는 지시를 추가해보세요.',
         author: '@dotey',
         href: 'https://github.com/JimmyLv/awesome-nano-banana#cases-88',
     },
     {
         id: 'f2-style-86',
         name: 'CASE 126: 이중 노출',
-        description: '인물의 실루엣과 풍경을 조화롭게 결합한 이중 노출 이미지를 생성합니다.',
-        prompt: `Double exposure, Midjourney style, merging, blending, overlay double exposure image, Double Exposure style, An exceptional masterpiece by Yukisakura revealing a fantastic double exposure composition of Aragorn son of Arathorn's silhouette harmoniously intertwined with the visually striking, rugged landscapes of Middle Earth during a lively spring season. Sun-bathed pine forests, mountain peaks, and a lone horse cutting through the trail echo outward through the fabric of his figure, adding layers of narrative and solitude. Beautiful tension builds as the stark monochrome background maintains razor-sharp contrast, drawing all focus to the richly layered double exposure. Characterized by its vibrant full-color scheme within Aragorn's silhouette and crisp, deliberate lines that trace every contour with emotional precision. (Detailed:1.45). (Detailed background:1.4).`,
-        imageUploads: 0,
-        suggestionHint: '실루엣과 풍경을 다른 주제로 조합해보세요 (예: 도시와 동물).',
+        description: '두 개의 이미지를 업로드하여 조화롭게 결합된 이중 노출 이미지를 생성합니다. 일반적으로 첫 번째 이미지는 실루엣, 두 번째 이미지는 풍경이나 질감을 사용합니다.',
+        prompt: 'Create a double exposure image by merging Image 1 and Image 2. Use the silhouette or main subject from Image 1 as the container, and fill it with the scene or texture from Image 2. Blend them harmoniously to create an artistic and surreal effect.',
+        imageUploads: 2,
+        suggestionHint: '프롬프트에 \'vibrant colors\', \'monochrome effect\', \'dreamlike atmosphere\'와 같은 스타일 지시를 추가하여 결과물의 분위기를 조절해보세요.',
         author: 'rezzycheck (Sora)',
         href: 'https://github.com/JimmyLv/awesome-nano-banana#cases-86',
     },

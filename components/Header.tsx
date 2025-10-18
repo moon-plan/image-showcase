@@ -10,11 +10,16 @@ const Header: React.FC<HeaderProps> = ({ onOpenManual }) => {
       {/* Invisible placeholder for centering */}
       <div className="w-8 h-8"></div>
       
-      <h1 className="text-xl font-bold text-center flex justify-center items-center">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">
-          Yeobaek Image Showcase
-        </span>
-      </h1>
+      <div className="text-center">
+        <h1 className="text-xl font-bold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400">
+            Yeobaek Image Showcase
+          </span>
+        </h1>
+        <p className="text-xs text-slate-400 mt-1">
+          텍스트 추가 입력을 했다면 'AI 프롬프트 제안'을 클릭한 후 사용하세요.
+        </p>
+      </div>
 
       <button
         onClick={onOpenManual}

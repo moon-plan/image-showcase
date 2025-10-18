@@ -1,5 +1,5 @@
 {
-  "name": "250916 Yeobaek Image Showcase",
+  "name": "2025 Yeobaek Image Showcase",
   "description": "An application to showcase various image generation and editing use cases with Gemini models. Select a case, upload an image if required, and see the creative results.",
   "requestFramePermissions": []
 }
